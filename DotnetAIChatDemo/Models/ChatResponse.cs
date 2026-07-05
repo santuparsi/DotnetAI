@@ -1,0 +1,6 @@
+﻿namespace DotnetAIChatDemo.Models;
+
+public class ChatResponse
+{
+    public List<Choice> Choices { get; set; }
+}
